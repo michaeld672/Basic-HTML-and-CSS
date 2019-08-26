@@ -1,11 +1,17 @@
-span{
-    display: inline-block;
-    margin: 20px;
-    padding: 20px;
+p.error{
+    color: red;
 }
-div{
-    /* display: inline; */
-    border: 2px solid crimson;
-    margin: 20px;
+
+p.success{
+    color: #4fdb4f;
+}
+
+p.success.feedback{
+    border: 1px dashed #4fdb4f;
+}
+
+#content{
+    background-color: #ebebeb;
     padding: 20px;
+
 }
